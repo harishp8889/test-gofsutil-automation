@@ -13,6 +13,10 @@ header:
     - 'LICENSE'
     - 'NOTICE'
     - '.github'
+    - '.gitignore'
+    - 'go.mod'
+    - 'go.sum'
+    - '.licenserc.yaml'
   comment: on-failure
   dependency:
     files:
