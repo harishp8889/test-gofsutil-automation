@@ -1,3 +1,5 @@
+// Copyright © 2023-2024 Dell Inc. or its subsidiaries. All Rights Reserved. Dell Technologies, Dell, EMC, Dell EMC and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks may be trademarks of their respective owners.
+
 //go:build linux || darwin
 // +build linux darwin
 
