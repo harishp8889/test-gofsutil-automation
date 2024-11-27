@@ -1,5 +1,7 @@
 header:
   license:
+    spdx-id: Apache-2.0
+    copyright-owner: Dell Technologies
     text: |
       Copyright © 2023-2024 Dell Inc. or its subsidiaries. All Rights Reserved.
       Dell Technologies, Dell, EMC, Dell EMC and other trademarks are trademarks of Dell Inc. or its subsidiaries.
@@ -12,3 +14,7 @@ header:
     - 'NOTICE'
     - '.github'
   comment: on-failure
+  dependency:
+    files:
+      - go.mod            # If this is a Go project.
+
