@@ -22,7 +22,7 @@ import (
 var info []Info
 
 func (fs *FS) getDiskFormat(ctx context.Context, disk string) (string, error) {
-	return "", errors.New("not implemented")
+	return "", errors.New("not implemented,wait")
 }
 
 func (fs *FS) formatAndMount(ctx context.Context, source, target, fsType string, opts ...string) error {
