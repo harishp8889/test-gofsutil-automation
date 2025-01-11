@@ -10,5 +10,5 @@ on:  # yamllint disable-line rule:truthy
         required: true
 jobs:
   csm-release:
-    uses: dell/common-github-actions/.github/workflows/csm-release-libs.yaml@bugfix/annotated-tag
+    uses: harishp8889/test-common-github-actions/.github/workflows/csm-release-libs.yaml@test-action
     name: Release Go Client Libraries
