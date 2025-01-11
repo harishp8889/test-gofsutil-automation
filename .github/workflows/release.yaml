@@ -12,3 +12,4 @@ jobs:
   csm-release:
     uses: harishp8889/test-common-github-actions/.github/workflows/csm-release-libs.yaml@test-action
     name: Release Go Client Libraries
+    secrets: inherit
