@@ -10,6 +10,6 @@ on:  # yamllint disable-line rule:truthy
         required: true
 jobs:
   csm-release:
-    uses: harishp8889/test-common-github-actions/.github/workflows/csm-release-libs.yaml@test-action
+    uses: dell/common-github-actions/.github/workflows/csm-release-libs.yaml@bugfix/annotated-tag
     name: Release Go Client Libraries
     secrets: inherit
