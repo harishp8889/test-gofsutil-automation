@@ -12,4 +12,3 @@ jobs:
   csm-release:
     uses: dell/common-github-actions/.github/workflows/csm-release-libs.yaml@bugfix/annotated-tag
     name: Release Go Client Libraries
-    secrets: inherit
