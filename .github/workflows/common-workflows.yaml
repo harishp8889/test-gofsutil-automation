@@ -1,12 +1,11 @@
 name: Common Workflows
-on:  # yamllint disable-line rule:truthy
+on: # yamllint disable-line rule:truthy
   push:
     branches: [main]
   pull_request:
     branches: ["**"]
 
 jobs:
-
   # golang static analysis checks
   go-static-analysis:
     uses: dell/common-github-actions/.github/workflows/go-static-analysis.yaml@main
@@ -20,5 +19,4 @@ jobs:
     name: Check License Header
     uses: dell/common-github-actions/.github/workflows/check-license-header.yaml@feature/license-validation
     with:
-      config: dell/common-github-actions/.github/configs/.licenserc.yaml@feature/license-validation
-  
+      config-path: dell/common-github-actions/.github/configs/.licenserc.yaml@feature/license-validation
