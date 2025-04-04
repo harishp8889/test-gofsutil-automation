@@ -1,3 +1,5 @@
+// Copyright © 2023-2024 Dell Inc. or its subsidiaries. All Rights Reserved. Dell Technologies, Dell, EMC, Dell EMC and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks may be trademarks of their respective owners.
+
 // Copyright © 2022 Dell Inc. or its subsidiaries. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,6 +14,7 @@
 
 package gofsutil
 
+// test package
 import (
 	"context"
 	"errors"
@@ -21,7 +24,7 @@ import (
 var info []Info
 
 func (fs *FS) getDiskFormat(ctx context.Context, disk string) (string, error) {
-	return "", errors.New("not implemented")
+	return "", errors.New("not implemented,wait")
 }
 
 func (fs *FS) formatAndMount(ctx context.Context, source, target, fsType string, opts ...string) error {
