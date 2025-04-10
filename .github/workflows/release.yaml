@@ -46,7 +46,7 @@ jobs:
           # if neither option nor version is provided, then minor release is taken by default (Auto-release)
           echo "versionEnv=minor" >> $GITHUB_OUTPUT
   csm-release:
-    needs: [process-inputs]    
+    needs: [process-inputs]
     uses: harishp8889/test-common-github-actions/.github/workflows/csm-release-libs.yaml@main
     name: Release Go Client Libraries
     with:
